@@ -36,6 +36,7 @@ const CountryDetails = () => {
     justifiedContent:'centre',
     marginTop:'30px',
     marginLeft:'35%',
+    
    
     padding: "20px",
     borderRadius: "25px",

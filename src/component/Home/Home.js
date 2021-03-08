@@ -31,7 +31,7 @@ const Home = () => {
         <div style={countryStyle}>
             <h1>   Total Country  :{country.length}</h1>
             {
-                country.map(country =><Counrty country={country}>  </Counrty>)
+                country.map((country,area) =><Counrty key={area} country={country}>  </Counrty>)
             }
         </div>
     );
